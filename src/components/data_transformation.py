@@ -12,8 +12,8 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import exception1
 from exception1 import *
-
-from src.utils import save_object
+import utils
+from utils import *
 
 
 @dataclass
